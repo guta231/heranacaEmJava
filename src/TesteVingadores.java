@@ -1,8 +1,7 @@
 public class TesteVingadores {
 
-
-    public static void main(String[] args){
-        Heroi vingador = new Heroi( "Homem de ferro", 50, true, 1.80);
+    public static void main(String[] args) {
+        Heroi vingador = new Heroi("Homem de ferro", 50, true, 1.80);
         vingador.identificador = 01;
         vingador.fatality = "Esnobar todo mundo";
 
@@ -18,7 +17,6 @@ public class TesteVingadores {
         System.out.println("fatality do vingador: " + vingador.fatality);
         System.out.println("ID do vingador: " + vingador.identificador);
 
-
         System.out.println("Criação de um herói \n");
         System.out.println("Nome do vilao:" + vilao1.nome);
         System.out.println("idade do vilao: " + vilao1.idade);
@@ -26,6 +24,13 @@ public class TesteVingadores {
         System.out.println("altura do vilao: " + vilao1.altura);
         System.out.println("fatality do vilao: " + vilao1.poder);
         System.out.println("ID do vilao: " + vilao1.plano_maligno);
+
+        Vingadores objVingadores = new Vingadores("Homem aranha", 20, false, 1.73);
+
+        objVingadores.exibir_vingador();
+
+
+        vingador.exibir_vingador();
 
     }
 }

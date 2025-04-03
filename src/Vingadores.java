@@ -23,7 +23,13 @@ public class Vingadores {
 
     }
 
+    public void exibir_vingador(){
 
+        System.out.println("Nome: " + this.nome);
+        System.out.println("idade: " + this.idade);
+        System.out.println("Armadura: " + this.armadura);
+        System.out.println("Altura: " + this.altura);
+    }
 
 
 
